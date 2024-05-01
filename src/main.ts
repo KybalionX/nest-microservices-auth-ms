@@ -25,6 +25,8 @@ async function bootstrap() {
     }),
   );
 
+  logger.log("Microservice started");
+
   await app.listen();
 }
 bootstrap();
